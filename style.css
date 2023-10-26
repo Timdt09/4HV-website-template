@@ -59,10 +59,14 @@ img {
 /* Indeling voor hoofd pagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
-
+.foto{
+  width:275px;
+  float: left;
+  padding-right:15px ;
+}
 .item-plaatje {
   float:left;
-  width:250px;
+  width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-tekst {
