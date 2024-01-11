@@ -25,10 +25,16 @@ html, body {                      /* geldt voor html en body */
 }  
 
 div {                             /* geldt voor div */
-  overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
+  overflow: hidden;  
+             /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
 
 /* Indeling voor alle pagina's */
+
+#zwarte-tekst{
+  color:black;
+  bAckground-color:rgba(255, 255, 255, 0.529)  
+}
 
 .page {
   width: 1000px;                   /* vaste breedte van 700 pixels */
@@ -80,30 +86,10 @@ section{
 
 /* Indeling voor sub pagina */
 
-.tekst-rechts{
-  color:white;
-  margin-left: 20%;
-  padding:10px;
-  width:40%;
-  height:30%;
-  float:right;
- 
-}
-.tekst-links{
-  color:white;
-  margin-right:20%;
-  padding:10px;
-  width:40%;
-  height:30%;
- 
-}
-.tekst-links2{
-  color:white;
-  margin-right:20%;
-  padding:10px;
-  width:40%;
-  height:30%;
-  margin-top:20%;
+.tekst-center{
+  text-align:center;
+  align-items:center;
+  padding-top:50px;
 }
 
 .img-rechts{
@@ -175,5 +161,16 @@ nav li a.active {
 }
 li a:hover {
   background-color: blue;
+
+}
+
+
+#Total-Football{
+background-image: url("afbeeldingen/_127010384_whatsubject.jpg") ;
+background-repeat:no-repeat;
+background-position: bottom;
+background-size: cover;
+height:1500px;
+
 
 }
