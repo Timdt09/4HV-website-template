@@ -70,12 +70,19 @@ section{
 /* Indeling voor hoofd pagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
+.video {
+  text-align: center;
+}
 .img-links{
   float:left;
   padding:3px;
   width:450px;
 }
-
+.foto-rechts{
+  float:right;
+  width: 350px;
+  padding-left:15px;
+}
 
 .foto{
   width:375px;
@@ -84,7 +91,7 @@ section{
 }
 .item-plaatje {
   float:left;
-  width: 250px;
+  width: 280px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-tekst {
@@ -92,10 +99,18 @@ section{
   width: 250px;
   padding-left:15px;
 }
-
+.Badge{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  max-width: 800px; 
+  margin: 0 auto;
+}
 /* Indeling voor sub pagina */
 #text-block{
   text-align:center;
+  font-size:15px;
 
 }
 
