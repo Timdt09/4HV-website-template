@@ -214,6 +214,8 @@ nav ul li {
 }
 
 nav li a {
+  border-color:orange;
+  border-style:solid;
   display: block;
   color: white;
   text-align: center;
@@ -222,7 +224,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: black;
+  background-color: orange;
   border-color: orange;
   border-style: solid;
   text-decoration: none;
@@ -232,10 +234,6 @@ nav li a.active {
   background-color: black;
 }
 
-li a:hover {
-  background-color: blue;
-
-}
 
 
 
