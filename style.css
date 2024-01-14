@@ -5,7 +5,7 @@
    letop 1: dit kan de layout soms kan wijzigen 
    letop 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
 /*  * {border: 1px dotted black;}   */
-  
+
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -13,128 +13,161 @@
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
-* {                                        /* geldt voor alles */
-  box-sizing: border-box;                  /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                             /* standaard marge 0 */
+* {
+  /* geldt voor alles */
+  box-sizing: border-box;
+  /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;
+  /* standaard marge 0 */
 }
 
-html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
-  background-color: black;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
-}  
+html,
+body {
+  /* geldt voor html en body */
+  margin: 0px;
+  /* standaard marge 0 */
+  background-color: black;
+  /* achtergrondkleur lichtgrijs */
+  color: #303030;
+  /* tekstkleur donkergrijs */
+}
 
-div {                             /* geldt voor div */
-  overflow: hidden;  
-             /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
+div {
+  /* geldt voor div */
+  overflow: hidden;
+  /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
 
 /* Indeling voor alle pagina's */
 
-#zwarte-tekst{
-  color:white;
-  bAckground-color:rgba(255, 255, 255, 0.64)  
-  
+#zwarte-tekst {
+  color: white;
+  bAckground-color: rgba(255, 255, 255, 0.64)
 }
 
 .page {
-  width: 1000px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  width: 1000px;
+  /* vaste breedte van 700 pixels */
+  margin: 10px auto;
+  /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
-header, footer {                  /* geldt voor header en footer */
+header,
+footer {
+  /* geldt voor header en footer */
   margin: 10px 0px;
 }
 
-main {                       
-  text-align: justify;            /* tekst uitvullen */}
+main {
+  text-align: justify;
+  /* tekst uitvullen */
+}
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1,
+h2,
+h3 {
+  /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
-} 
+  text-align: center;
+  /* tekst centreren */
+}
 
 p {
-  color:white;
+  color: white;
   margin: 15px 0px;
-  text-align: center;            /* tekst links en rechts uitvullen */
+  text-align: center;
+  /* tekst links en rechts uitvullen */
 }
 
 img {
   margin: 10px 0px;
 }
-section{
-  color:white;
+
+section {
+  color: white;
 }
 
 /* Indeling voor hoofd pagina */
 
-/* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
+/* .item {} */
+/* hier doen we nog niks mee, dat mag je zelf toevoegen */
 .video {
   text-align: center;
-  
-}
-.img-links{
-  float:left;
-  padding:3px;
-  width:450px;
-}
-.foto-rechts{
-  float:right;
-  width: 350px;
-  padding-left:15px;
+
 }
 
-.foto{
-  width:375px;
+.img-links {
+  float: left;
+  padding: 3px;
+  width: 450px;
+}
+
+.foto-rechts {
+  float: right;
+  width: 350px;
+  padding-left: 15px;
+}
+
+.foto {
+  width: 375px;
   float: center;
-  padding-right:15px ;
+  padding-right: 15px;
 }
+
 .item-plaatje {
-  float:left;
+  float: left;
   width: 280px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  padding-right: 15px;
+  /* zorgt dat plaatje niet tegen tekst komt */
 }
+
 .item-tekst {
-  float:right;
+  float: right;
   width: 250px;
-  padding-left:15px;
+  padding-left: 15px;
 }
-.Badge{
+
+.Badge {
   display: flex;
-  flex-direction: row; 
-  justify-content: center; 
-  align-items: center; 
-  max-width: 800px; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
   margin: 0 auto;
 }
+
 /* Indeling voor sub pagina */
-#text-block{
-  text-align:center;
-  font-size:15px;
+#text-block {
+  text-align: center;
+  font-size: 15px;
 
 }
 
-.tekst-center{
-  float:top;
-  float:left;
+#tekst {
+  text-align: left;
+}
+
+.tekst-center {
+  float: top;
+  float: left;
   Padding: top 5%;
-  text-align:center;
-  align-items:center;
-font-size:medium;  
+  text-align: center;
+  align-items: center;
+  font-size: medium;
 }
 
-.img-rechts{
+.img-rechts {
 
-  float:right;
-  width: 180px; 
-  padding:10px;
-  width:125px;
-  align-items:top;
+  float: right;
+  width: 180px;
+  padding: 10px;
+  width: 125px;
+  align-items: top;
 }
-#text-links{
-  float:left;
-  
+
+#text-links {
+  float: left;
+
 }
 
 
@@ -143,71 +176,123 @@ font-size:medium;
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
-      color: orange;
+h1,
+h2,
+h3 {
+  color: orange;
 }
 
 .smalltext {
-    text-align: center;
-    font-size: 0.7em;
+  text-align: center;
+  font-size: 0.7em;
 }
 
 a {
-    color: orange;
-    text-decoration: none;
+  color: orange;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 
-    
+
 }
 
 /* Opmaak voor sub pagina's */
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: black;
-    overflow: hidden;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
 }
 
 nav ul li {
-    float: left;
+  float: left;
 }
 
 nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: black;
-    border-color: orange;
-    border-style:solid;
-    text-decoration:none;
+  background-color: black;
+  border-color: orange;
+  border-style: solid;
+  text-decoration: none;
 }
 
 nav li a.active {
-    background-color: black;
+  background-color: black;
 }
+
 li a:hover {
   background-color: blue;
 
 }
 
 
-#Total-Footbal{
-background-image: url("afbeeldingen/_127010384_whatsubject.jpg") ;
-background-repeat:no-repeat;
-background-position: bottom;
-background-size: cover;
-height:1500px;
 
 
+.balk {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color: #0000003b;
+  position: relative;
 }
+
+.bewegende-foto {
+  position: absolute;
+  top: 0;
+  width: 165px;
+
+  height: 100px;
+ 
+  background-size: cover;
+ background-image:url("afbeeldingen/Quote 1.jpg");
+
+  animation: beweegFoto 30s linear infinite;
+ 
+}
+.balk-2 {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color: #0000003b;
+  position: relative;
+}
+
+.bewegende-foto-2{
+  position: absolute;
+  top: 0;
+  width: 185px;
+
+  height: 100px;
+ 
+  background-size: cover;
+ background-image:url("afbeeldingen/Quote 2.jpg");
+
+  animation: beweegFoto 30s linear infinite;
+ 
+}
+
+
+@keyframes beweegFoto{
+from {
+  left: -55%;
+ 
+}
+
+to {
+  left: 55%;
+ 
+}
+}
+
