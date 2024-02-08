@@ -214,8 +214,8 @@ nav ul li {
 }
 
 nav li a {
-  border-color:orange;
-  border-style:solid;
+  border-color: orange;
+  border-style: solid;
   display: block;
   color: white;
   text-align: center;
@@ -236,7 +236,7 @@ nav li a.active {
 
 
 
-
+/* ik heb voor de bewegende balk meerdere video's gekeken maar k kan alleen deze terug vinden: 'https://youtu.be/K2InFdrCbFQ' */
 
 .balk {
   width: 100%;
@@ -252,13 +252,14 @@ nav li a.active {
   width: 165px;
 
   height: 100px;
- 
+
   background-size: cover;
- background-image:url("afbeeldingen/Quote 1.jpg");
+  background-image: url("afbeeldingen/Quote 1.jpg");
 
   animation: beweegFoto 30s linear infinite;
- 
+
 }
+
 .balk-2 {
   width: 100%;
   height: 100px;
@@ -267,30 +268,29 @@ nav li a.active {
   position: relative;
 }
 
-.bewegende-foto-2{
+.bewegende-foto-2 {
   position: absolute;
   top: 0;
   width: 185px;
 
   height: 100px;
- 
+
   background-size: cover;
- background-image:url("afbeeldingen/Quote 2.jpg");
+  background-image: url("afbeeldingen/Quote 2.jpg");
 
   animation: beweegFoto 30s linear infinite;
- 
+
 }
 
 
-@keyframes beweegFoto{
-from {
-  left: -55%;
- 
-}
+@keyframes beweegFoto {
+  from {
+    left: -55%;
 
-to {
-  left: 55%;
- 
-}
-}
+  }
 
+  to {
+    left: 55%;
+
+  }
+}
